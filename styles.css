@@ -160,8 +160,9 @@ footer {
 
 /* Responsive Images */
 .img-fluid {
-    max-width: 90%;
+    max-width: 75%;
     height: auto;
+    padding-top: 20px;
 }
 
 /* Animation for fade-in effect */
