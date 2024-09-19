@@ -4,11 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Second Heaven</title>
+    <title>Second Heaven | Nachhaltige Mode & Fundstücke in Konstanz und Radolfzell</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <meta name="description"
+        content="Entdecke nachhaltige Mode und einzigartige Fundstücke bei Second Heaven in Konstanz und Radolfzell. Erlebe sorgfältig ausgewählte Kleidung, Kunst und Schmuck.">
+    <meta name="keywords"
+        content="Secondhand Mode, nachhaltige Kleidung, Fundstücke, Konstanz, Radolfzell, Second Heaven, Vintage Mode, Recycling, Nachhaltigkeit">
+    <meta property="og:title" content="Second Heaven | Nachhaltige Mode & Fundstücke in Konstanz und Radolfzell">
+    <meta property="og:description"
+        content="Entdecke nachhaltige Mode und einzigartige Fundstücke bei Second Heaven in Konstanz und Radolfzell.">
+    <meta property="og:image" content="https://example.com/pics/logo.JPG">
+    <meta property="og:url" content="https://secondheaven.eu">
+
 
 </head>
 
@@ -48,8 +58,8 @@
     <header id="home" class="hero text-white text-center py-5" data-aos="fade-up">
         <div class="container">
             <div class="overlay"></div> <!-- Overlay -->
-            <h1 class="display-4">Willkommen im Second Heaven!</h1>
-            <p class="lead">Nachhaltige Mode und einzigartige Fundstücke</p>
+            <h1 class="display-4">Second Heaven: Nachhaltige Mode in Konstanz & Radolfzell</h1>
+            <p class="lead">Entdecke einzigartige Fundstücke und nachhaltige Mode</p>
         </div>
     </header>
 
@@ -77,7 +87,7 @@
             <div class="row">
                 <div class="col-lg-6 d-flex align-items-center">
                     <div>
-                        <h2>Über uns</h2>
+                        <h2><a class="nav-link" href="#about">Über uns</a></h2>
                         <p>
                             In einer Welt, die immer schneller dreht, haben wir eine Oase geschaffen, in der du ganz
                             entspannt
@@ -98,7 +108,8 @@
                     </div>
                 </div>
                 <div class="col-lg-6 d-flex justify-content-center align-items-center ">
-                    <img src="pics/logo.JPG" alt="logo" class="img-fluid rounded-circle">
+                    <img loading="lazy" src="pics/logo.JPG" alt="Second Heaven Logo - Nachhaltige Mode und Fundstücke"
+                        class="img-fluid rounded-circle">
                 </div>
             </div>
         </div>
@@ -111,11 +122,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 text-center order-lg-1 order-2 d-flex justify-content-center align-items-center">
-                    <img src="pics/shirts.JPG" alt="logo" class="img-fluid rounded-circle">
+                    <img src="pics/shirts.JPG" alt="Nachhaltige Kleidung bei Second Heaven"
+                        class="img-fluid rounded-circle" loading="lazy">
                 </div>
                 <div class="col-lg-6 order-lg-2 order-1 d-flex align-items-center">
                     <div>
-                        <h2>Kleidung bei uns verkaufen?</h2>
+                        <h2><a class="nav-link" href="#rebuy">Kleidung verkaufen</a></h2>
                         <p>
                             Hast du sehr gut erhaltene Markenkleidung, Accessoires,etc? <br> <br>
                             <strong> So funktioniert es:</strong>
@@ -155,7 +167,7 @@
             <div class="row">
                 <div class="col-lg-6 d-flex align-items-center ">
                     <div>
-                        <h2>Anfahrt Konstanz:</h2>
+                        <h2><a class="nav-link" href="#locationKn">Anfahrt Konstanz</a></h2>
 
                         <p> So findest du zu uns in der <strong>Zollernstraße 21, 78462 Konstanz:</strong> <br>
                             Unser Second-Hand-Shop in der Zollernstraße 21 liegt zentral in der charmanten Altstadt von
@@ -180,7 +192,8 @@
                 <div class="col-lg-6">
                     <a href="https://maps.app.goo.gl/MiRZSyL8uu4rPWVu5"
                         class="d-flex justify-content-center align-items-center">
-                        <img src="pics/LocationKn.png" alt="logo" class="img-fluid rounded-circle">
+                        <img src="pics/LocationKn.png" alt="Lage von Second Heaven in Konstanz"
+                            class="img-fluid rounded-circle" loading="lazy">
                     </a>
                 </div>
             </div>
@@ -196,12 +209,13 @@
                 <div class="col-lg-6 order-lg-1 order-2">
                     <a href="https://maps.app.goo.gl/CZG1ymtNKASBh2He9"
                         class="d-flex justify-content-center align-items-center">
-                        <img src="pics/LocationRz.png" alt="logo" class="img-fluid rounded-circle">
+                        <img src="pics/LocationRz.png" alt="Lage von Second Heaven in Radolfzell" class=" img-fluid
+                            rounded-circle" loading="lazy">
                     </a>
                 </div>
                 <div class="col-lg-6 order-lg-2 order-1 d-flex align-items-center">
                     <div>
-                        <h2>Anfahrt Radolfzell:</h2>
+                        <h2><a class="nav-link" href="#locationRz">Anfahrt Radolfzell</a></h2>
                         <p>
                             So findest du zu uns in der <strong> Seestraße 33, 78315 Radolfzell am Bodensee:
                             </strong><br>
@@ -276,6 +290,26 @@
     <script>
         AOS.init();
     </script>
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Store",
+          "name": "Second Heaven",
+          "description": "Nachhaltige Mode und einzigartige Fundstücke in Konstanz und Radolfzell.",
+          "image": "https://example.com/pics/logo.JPG",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Zollernstraße 21",
+            "addressLocality": "Konstanz",
+            "postalCode": "78462",
+            "addressCountry": "DE"
+          },
+          "telephone": "+49 (0)179 1399648",
+          "email": "secondheavenkonstanz@gmail.com",
+          "url": "secondheaven.eu"
+        }
+        </script>
+
 
 </body>
 
